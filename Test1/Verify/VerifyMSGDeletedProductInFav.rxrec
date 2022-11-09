@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="e459ce8e-d886-4d19-9a83-2c819f23bde5"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="VerifyMSGDeletedProductInFav"
+	namespace="Test1.Verify">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<validationitem
+		action="AttributeContains"
+		enabled="True"
+		optional="False"
+		searchpropertyid="cbe94a39-afba-4f55-a0f2-08fb42d7f83e">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="26ee9db0-988f-4b69-a199-5ff9fb5a8588"
+			sourcename="ItemRecorderEditor">
+				<path>
+					/dom[@domain='flymee.jp']//div[text()~'ユーティリティ ソファ ツーサイド L']//ancestor::li[@class='js-item']//div[@class~'favorite_delete_cover']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<matchname>
+				Text
+			</matchname>
+			<matchvalue>
+				削除しました
+			</matchvalue>
+		</validationitem>
+	</recorditems>
+	<repository
+	id="ef387f42-5691-4dfa-825a-5a9b6d70cfca"
+	name="Test1Repository"
+	relativepath="..\Test1Repository.rxrep">
+		<codegen
+		classname="Test1Repository"
+		namespace="Test1">
+		</codegen>
+		<rootfolder
+		id="96540a89-2691-429b-bfc6-fda3e58a0469"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		VerifyMSGDeletedProductInFav.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="231fdea5-bbfb-4a40-bb98-89fe320333d4"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="ToFavPage"
+	namespace="Test1.Navigate">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="8dfe8a97-7b15-489a-8492-4d46a6295c95"
+		sx="1355"
+		sy="137"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="6796e3f5-8bd7-4c3a-8437-a442d3fbe59c"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, atag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="atag"
+				rect="1342,117,88,32"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						icon_favorite
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						True
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						お気に入り
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						icon_favorite
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						a
+					</attribute>
+					<attribute
+					name="href"
+					type="System.String">
+						https://flymee.jp/member/favorite/
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='flymee.jp']/body/div[1]/header//ul/li[3]/a[@innertext='お気に入り']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<helperscreenshot
+			guid="6df8988f-c156-4e36-9725-4bc8498df074">
+				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
+			</helperscreenshot>
+		</mouseitem>
+	</recorditems>
+	<repository
+	id="ef387f42-5691-4dfa-825a-5a9b6d70cfca"
+	name="Test1Repository"
+	relativepath="..\Test1Repository.rxrep">
+		<codegen
+		classname="Test1Repository"
+		namespace="Test1">
+		</codegen>
+		<rootfolder
+		id="96540a89-2691-429b-bfc6-fda3e58a0469"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		ToFavPage.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

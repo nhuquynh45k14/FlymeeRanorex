@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="6e463c4c-f6b0-46a5-87f7-0e91512d3c84"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="GotoPageByLinkText"
+	namespace="Test1.Navigate">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="b3147bb8-322f-4c2c-bffb-9827ea863a90"
+		sx="0"
+		sy="0"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="3d2302c2-b598-4c57-a881-46f62be16864"
+			sourcename="ItemRecorderEditor">
+				<path>
+					/dom[@domain='flymee.jp']//*[text()=$linkText]
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</mouseitem>
+	</recorditems>
+	<repository
+	id="ef387f42-5691-4dfa-825a-5a9b6d70cfca"
+	name="Test1Repository"
+	relativepath="..\Test1Repository.rxrep">
+		<codegen
+		classname="Test1Repository"
+		namespace="Test1">
+		</codegen>
+		<rootfolder
+		id="96540a89-2691-429b-bfc6-fda3e58a0469"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		GotoPageByLinkText.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

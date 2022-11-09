@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="bcdb0ce1-cf59-45df-8d12-f7c93e3c82b5"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="VerifyMSGDeleteInFavPage"
+	namespace="Test1.Verify">
+	</codegen>
+	<variables>
+		<var
+		id="78713fa0-4b57-4ff0-ba05-171fccfdceb6"
+		name="MSGDelete">
+			&#32;
+		</var>
+	</variables>
+	<recorditems>
+		<validationitem
+		action="AttributeContains"
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		searchpropertyid="6d94643f-1811-486a-b8de-98d75ec78c58">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="MatchValue"
+				variable="MSGDelete">
+				</binding>
+			</bindings>
+			<info
+			id="26ee9db0-988f-4b69-a199-5ff9fb5a8588"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='flymee.jp']//div[text()~$productName]//ancestor::li[@class='js-item']//div[@class~'favorite_delete_cover']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<matchname>
+				InnerText
+			</matchname>
+			<matchvalue>
+				&#10;                                                    &#21066;&#38500;&#12375;&#12414;&#12375;&#12383;
+                                               &#32;
+			</matchvalue>
+		</validationitem>
+	</recorditems>
+	<repository
+	id="ef387f42-5691-4dfa-825a-5a9b6d70cfca"
+	name="Test1Repository"
+	relativepath="..\Test1Repository.rxrep">
+		<codegen
+		classname="Test1Repository"
+		namespace="Test1">
+		</codegen>
+		<rootfolder
+		id="96540a89-2691-429b-bfc6-fda3e58a0469"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		VerifyMSGDeleteInFavPage.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

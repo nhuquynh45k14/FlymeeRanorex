@@ -1,0 +1,242 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="05717697-2328-4165-9163-5ffc89567f7e"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="AddToCartInDesktop"
+	namespace="Test1.Add">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="4793c7a9-20b9-40c4-bfe0-8bb41a1ac8ef"
+		sx="776"
+		sy="435"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="f3e2a56b-7801-4910-9b50-c3cafb29c04b"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='flymee.jp']//*[@class='search_result_area']//div[@class='caption_area']//*[text()~$productName]
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="ac420050-7760-4959-929a-0a7e759b5071"
+		sx="1314"
+		sy="715"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="2662da02-7e4b-4851-9802-fc499b1f2fb0"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, buttontag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="buttontag"
+				rect="1192,695,320,48"
+				role="button"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						button _green _b_320_48
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						カートに入れる
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						_b_320_48 _green button
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						button
+					</attribute>
+					<attribute
+					name="autofocus"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="disabled"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						button
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-product-detail-id"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='flymee.jp']//div[#'js-cartIn']/button[@innertext='カートに入れる']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<helperscreenshot
+			guid="ce714b78-b09f-4b2e-8134-1400cbb9cf7d">
+				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
+gAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKA
+CiiigAqpdo0sixlSyZQgAcH5vmz+A7+vftbooE1cpSxfurhbeIonlOpULjc3bA/Pnvkde0k/2n7S
+vl7/AC/l6bcdfmznnp6VZooCxSxIlxLOkbP87KFxjOVXn6ZXH457VZkjLSROuBsY59xg8fnj8qko
+oCxTd38+UNLcIAw2hItwxgd9p75ps0clxpjhy7H5zgphmAzt44x2NXqKBWIJ13RG2jUjem3IXCqO
+n0/D/wDXS3GQ0L4JVHy2Bk42kdB7kVNRQOxSfD29wFM0kjREZeMrkYOB0A70t007yeWijAdSAVPz
+AEHO7oO/Ht71cooFYieVkZCyNsKndhSxB4wOM+9KHWdHVfMTIxnaVIz6ZFSUUDKaxRq6rbQsrIwB
+kKkcA8jJ5IxwOvbpxTpILaNi0sbSl2LZZDJj9DjsPw9qtUUBYjgDrEBJnOT1OSBngH3xipKKKBhR
+RRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFF
+FABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUU
+AFFFFABRRRQB/9k=
+			</helperscreenshot>
+		</mouseitem>
+	</recorditems>
+	<repository
+	id="ef387f42-5691-4dfa-825a-5a9b6d70cfca"
+	name="Test1Repository"
+	relativepath="..\Test1Repository.rxrep">
+		<codegen
+		classname="Test1Repository"
+		namespace="Test1">
+		</codegen>
+		<rootfolder
+		id="96540a89-2691-429b-bfc6-fda3e58a0469"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		AddToCartInDesktop.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

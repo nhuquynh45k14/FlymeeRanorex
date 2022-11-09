@@ -1,0 +1,329 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="a8d88aac-b086-46ca-b96a-d5f7fd63e83e"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="EditQuantityOfProduct"
+	namespace="Test1.Edit">
+	</codegen>
+	<variables>
+		<var
+		id="8459385b-79cb-4c75-9201-3246db547de0"
+		name="number">
+		</var>
+	</variables>
+	<recorditems>
+		<WaitForRecordItem
+		enabled="True"
+		optional="False"
+		searchpropertyid="2fb00ced-791b-483c-b239-8e7701660e7d"
+		waitaction="Exists"
+		waittimeout="5000ms">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="fd1b8340-39b2-4564-b37c-3d4d5899fb8b"
+			sourcename="ItemRecorderEditor">
+				<path>
+					/dom[@domain='flymee.jp']//p[text()~$productName]/../../..//*[@class~'image']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</WaitForRecordItem>
+		<mouseitem
+		action="DoubleClick"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="120307d0-b8b5-4418-b495-83a3134e422c"
+		sx="439"
+		sy="388"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="fd1b8340-39b2-4564-b37c-3d4d5899fb8b"
+			sourcename="Recorder">
+				<path>
+					/dom[@domain='flymee.jp']//p[text()~$productName]/../../..//*[@class~'image']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</mouseitem>
+		<WaitForRecordItem
+		enabled="True"
+		optional="False"
+		searchpropertyid="bbb3d0c0-3867-4c25-adce-4038b445d4e5"
+		waitaction="Exists"
+		waittimeout="5000ms">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="681a21ef-b792-4b90-8c7f-cf00ce3f7dfa"
+			sourcename="ItemRecorderEditor">
+				<path>
+					/dom[@domain='flymee.jp']//*[@class~'plus']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</WaitForRecordItem>
+		<userrecorditem
+		classname="EditQuantityOfProduct"
+		enabled="True"
+		isexternaltestmethod="False"
+		methodname="Mouse_Click_IconPlus"
+		namespace="Test1.Edit"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="3c9422f1-ec59-4ea9-bef7-31dcc268edb0">
+				<argument
+				argname="unknownInfo"
+				id="49f91834-972f-4cef-a0d3-e200b8048466">
+					<argvaluetype>
+						Ranorex.Core.Repository.RepoItemInfo, Ranorex.Core, Culture=neutral
+					</argvaluetype>
+					<argvalue>
+					</argvalue>
+					<info
+					id="681a21ef-b792-4b90-8c7f-cf00ce3f7dfa"
+					sourcename="ItemRecorderEditor">
+						<path>
+							/dom[@domain='flymee.jp']//*[@class~'plus']
+						</path>
+						<robustPath>
+						</robustPath>
+					</info>
+				</argument>
+				<argument
+				argname="number"
+				id="bb9916fd-463b-422c-9d89-d05decd784b5"
+				variable="number">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue>
+					</argvalue>
+				</argument>
+			</arguments>
+		</userrecorditem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="6f247ae9-0d17-459b-acbb-2d6f38865e26"
+		sx="1216"
+		sy="728"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="2662da02-7e4b-4851-9802-fc499b1f2fb0"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, buttontag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="buttontag"
+				rect="1192,695,320,48"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						button _green _b_320_48
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						カートに入れる
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						_b_320_48 _green button
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						button
+					</attribute>
+					<attribute
+					name="autofocus"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="disabled"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						button
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-product-detail-id"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='flymee.jp']//div[#'js-cartIn']/button[@innertext='カートに入れる']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<helperscreenshot
+			guid="c8b54d8f-44e6-4d77-82e9-bbf9fafd746a">
+				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
+OcZ6/QjsaBXJaKKKBhRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUA
+FFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAVUu0aWRYypZMoQAOD
+83zZ/Ad/Xv2t0UCauUpYv3VwtvEUTynUqFxubtgfnz3yOvaSf7T9pXy9/l/L0246/NnPPT0qzRQF
+iliRLiWdI2f52ULjGcqvP0yuPxz2qzJGWkidcDYxz7jB4/PH5VJRQFim7v58oaW4QBhtCRbhjA77
+T3zTZo5LjTHDl2PznBTDMBnbxxjsavUUCsQTruiNtGpG9NuQuFUdPp+H/wCuluMhoXwSqPlsDJxt
+I6D3Iqaigdik+Ht7gKZpJGiIy8ZXIwcDoB3pbpp3k8tFGA6kAqfmAIOd3Qd+Pb3q5RQKxE8rIyFk
+bYVO7CliDxgcZ96UOs6Oq+YmRjO0qRn0yKkooGU1ijV1W2hZWRgDIVI4B5GTyRjgde3TinSQW0bF
+pY2lLsWyyGTH6HHYfh7VaooCxHAHWICTOcnqckDPAPvjFSUUUDCiiigAooooAKKKKACiiigAoooo
+AKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigA
+ooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigD/9k=
+			</helperscreenshot>
+		</mouseitem>
+	</recorditems>
+	<repository
+	id="ef387f42-5691-4dfa-825a-5a9b6d70cfca"
+	name="Test1Repository"
+	relativepath="..\Test1Repository.rxrep">
+		<codegen
+		classname="Test1Repository"
+		namespace="Test1">
+		</codegen>
+		<rootfolder
+		id="96540a89-2691-429b-bfc6-fda3e58a0469"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		EditQuantityOfProduct.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

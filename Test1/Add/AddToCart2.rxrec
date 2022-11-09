@@ -1,0 +1,315 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="4ee1feb5-0371-4903-9e22-ba9264359a9a"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="AddToCart2"
+	namespace="Test1.Add">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="4793c7a9-20b9-40c4-bfe0-8bb41a1ac8ef"
+		sx="776"
+		sy="435"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="f3e2a56b-7801-4910-9b50-c3cafb29c04b"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, imgtag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="imgtag"
+				rect="646,335,272,204"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						img_size_l
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						True
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						img_size_l
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						img
+					</attribute>
+					<attribute
+					name="alt"
+					type="System.String">
+						Stellar Works ステラワークスUtility Sofa Two Sides L / ユーティリティ ソファ ツーサイド L
+					</attribute>
+					<attribute
+					name="height"
+					type="System.String">
+						204
+					</attribute>
+					<attribute
+					name="hspace"
+					type="System.String">
+						0
+					</attribute>
+					<attribute
+					name="src"
+					type="System.String">
+						https://static2.flymee.jp/product_images/9834-109466/202110111330076279.jpg
+					</attribute>
+					<attribute
+					name="vspace"
+					type="System.String">
+						0
+					</attribute>
+					<attribute
+					name="width"
+					type="System.String">
+						272
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-src"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="lazy"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='flymee.jp']//div[#'search-main-section']/main/div/div[2]/ul/?/?/a[@href&gt;'https://flymee.jp/product']/?/?/img[@alt&gt;'Stellar Works &#12473;&#12486;&#12521;&#12527;&#12540;&#12463;&#12473;Utility']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<helperscreenshot
+			guid="b238096e-a47c-432a-866b-1eb34614b4d0">
+				/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCAEyAfQDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDoqKKK
+AGuAVOV3Y5A9SKjVXkdXlAUKcqoOfxPvg9P59pqKBFZYmKxxbSsURHLEZbHTp26H8OlPkj82VAyg
+xqCTnuSMY+mCf0qaigLBRRRQMVaWkWloAKKKKACiiigBp60UHrRQBHcRefbvFu27xjOM4p9LRQBT
++wxm2iRoojIoQMxXrjGefoKtIixqFRQqjoAMCnUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFF
+FABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUU
+AFFFFACZHqKMj1FLRQAmR6ijI9RS0UAJkeooyPUUtFACZHqKMj1FLRQAqnNLSLS0AFFFFABRRRQA
+YpMUtFACYoxS0UAJijFLRQAmKMUtFACYoxS0UAJijFLRQAmKMUtFACYoxS0UAJijFLRQAmKMUtFA
+CYoxS0UAJijFLRQAmKMUtFACYoxS0UAJijFLRQAmKMUtFACYoxS0UAJijFLRQAmKMUtFACYoxS0U
+AJijFLRQAmKMUtFACYoxS0UAJijFLRQAmKKWigBtFFQSXSx3AiKyHKk5CMfT0HPWgCeioLe5WfOF
+dSCRyhA4OOpH6VPQAUUUwSIU354oAfRRRQAq0tItLQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAU
+UUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRR
+RQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQBW+x2v/PtD/wB8Cny/KyyCJpGAKjaRwD16kegqSigC
+OBGjiwcFiWY46ZJJx+tOy+PurnH97v8AlTqKAEqDy3EnnADd3T/Pf/8AVViigQUUUUDFWlpFpaAC
+iiigAqG9/wCPGf8A65t/Kpqhvf8Ajxn/AOubfypPYqHxIyrDSoLmzjmd5AzZyARjqR6VY/sK1/56
+TfmP8Km0f/kGQ/8AAv8A0I1dqYxVkdFWvUU2k+pmf2Fa/wDPSb8x/hR/YVr/AM9JvzH+FadFPkj2
+I+sVf5jM/sK1/wCek35j/Cj+wrX/AJ6TfmP8K06KOSPYPrFX+YzP7Ctf+ek35j/Cj+wrX/npN+Y/
+wrToo5I9g+sVf5jM/sK1/wCek35j/Cj+wrX/AJ6TfmP8K06KOSPYPrFX+YzP7Ctf+ek35j/Cj+wr
+X/npN+Y/wrToo5I9g+sVf5jM/sK1/wCek35j/Cj+wrX/AJ6TfmP8K06KOSPYPrFX+YzP7Ctf+ek3
+5j/Cj+wrX/npN+Y/wrToo5I9g+sVf5jM/sK1/wCek35j/Cj+wrX/AJ6TfmP8K06KOSPYPrFX+YzP
+7Ctf+ek35j/Cj+wrX/npN+Y/wrToo5I9g+sVf5jM/sK1/wCek35j/Cj+wrX/AJ6TfmP8K06KOSPY
+PrFX+YzP7Ctf+ek35j/Cj+wrX/npN+Y/wrToo5I9g+sVf5jM/sK1/wCek35j/Cj+wrX/AJ6TfmP8
+K06KOSPYPrFX+YzP7Ctf+ek35j/Cj+wrX/npN+Y/wrToo5I9g+sVf5jM/sK1/wCek35j/Cj+wrX/
+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
+/Z4f+ea/lR9nh/55r+VSUUAR/Z4f+ea/lSfZ4f8Anmv5VLSHpxQBWtYY2t0LIpJzyR71N9nh/wCe
+a/lRApSFVIwRUlAFKaGNbuFQoAOcj1q0sMSnIRQfpUM3/H5B+NWaACiiigDMn/5GG2/65n/2atOs
+yf8A5GG2/wCuZ/8AZq06mPU3rbR9P8woooqjAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACi
+iigAooooAKKKKACiiigAooooAKhvf+PGf/rm38qmqG9/48Z/+ubfypPYqHxIg0f/AJBkP/Av/QjV
+2qWj/wDIMh/4F/6Eau0R2RVb+JL1YUUUUzMgu/8AVr/vips1HOjOoCgHBB5NSY9aAEzRS4ooAKKW
+igBKKWigBKKWigBKKWigBKWiigBKWiigBKKWigApKWigAooooAKKKKAEopaKAK8o/wBMh+h/lVio
+XVjcxsFJCg85qagAooooAzJ/+Rhtv+uZ/wDZq06zJ/8AkYbb/rmf/Zq06mPU3rbR9P8AMKKKKowC
+iiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACob3/AI8Z/wDr
+m38qmqG9/wCPGf8A65t/Kk9iofEiDR/+QZD/AMC/9CNXapaP/wAgyH/gX/oRq7RHZFVv4kvVhRRR
+TMwooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKK
+ACiiigDMn/5GG2/65n/2atOsyf8A5GG2/wCuZ/8AZq06mPU3rbR9P8woooqjAKKKKACiiigAoooo
+AKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKhvf+PGf/rm38qmqG9/48Z/+ubf
+ypPYqHxIg0f/AJBkP/Av/QjV2qWj/wDIMh/4F/6Eau0R2RVb+JL1YUUUUzMKKKKACiiigAooooAK
+KKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAzJ/8AkYbb/rmf
+/Zq06zJ/+Rhtv+uZ/wDZq06mPU3rbR9P8woooqjAKKKKACiiigAooooAKKKKACiiigAooooAKKKK
+ACiiigAooooAKKKKACiiigAooooAKhvf+PGf/rm38qmqG9/48Z/+ubfypPYqHxIg0f8A5BkP/Av/
+AEI1dqlo/wDyDIf+Bf8AoRq7RHZFVv4kvVhRRRTMwooooAKKKKACiiigAooooAKKKKACiiigAooo
+oAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigDMn/AORhtv8Armf/AGatOsyf/kYbb/rm
+f/Zq06mPU3rbR9P8woooqjAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKA
+CiiigAooooAKbLGJYnjbIDqVOPenUUAnYzP7Ctf+ek35j/Cj+wrX/npN+Y/wqS6+0faG8vzdvGNu
+cdKi/wBK/wCm361naPY61UqtX5hf7Ctf+ek35j/Cj+wrX/npN+Y/wqabz8R7fM+4M4z1qP8A0n/p
+r+taKnFmDxVVO12N/sK1/wCek35j/Cj+wrX/AJ6TfmP8Klk8/wAiLb5m7nOM561F/pX/AE2/WocY
+roH1qr3Yf2Fa/wDPSb8x/hR/YVr/AM9JvzH+FWYfN8g7t+7d3znGKX95/t/rUPlT2LWIqtfEVf7C
+tf8AnpN+Y/wo/sK1/wCek35j/CrZ8zyn+9njFRfv/wDpp+tP3exSrVX9oh/sK1/56TfmP8KP7Ctf
++ek35j/CrCedtkzv+4cZz1qv/pX/AE2/WqUYvoNVar+0H9hWv/PSb8x/hR/YVr/z0m/Mf4VLbef5
+67/M2853Zx0qt/pn/Tf9atU4sTrVU/iJP7Ctf+ek35j/AAo/sK1/56TfmP8ACkh+1ecm7ztu4Zzn
+GK0TuyetKVOKJ9vV/mM/+wrX/npN+Y/wo/sK1/56TfmP8Kv/ADe9SVPLHsH1ir/MZn9h2v8Az0m/
+Mf4Ug0W0Jx5k2fqP8K0tp353GhfvEn6CnyR7B9Yq/wAxnf2Fa/8APSb8x/hR/YVr/wA9JvzH+Fad
+FHJHsH1ir/MZn9hWv/PSb8x/hR/YVr/z0m/Mf4Vp0UckewfWKv8AMZn9hWv/AD0m/Mf4Uf2Fa/8A
+PSb8x/hWnRRyR7B9Yq/zGZ/YVr/z0m/Mf4Uf2Fa/89JvzH+FadFHJHsH1ir/ADGZ/YVr/wA9JvzH
++FH9hWv/AD0m/Mf4Vp0UckewfWKv8xmf2Fa/89JvzH+FH9hWv/PSb8x/hWnRRyR7B9Yq/wAxmf2F
+a/8APSb8x/hR/YVr/wA9JvzH+FadFHJHsH1ir/MUbbSoLadZkeQsucAkY6Y9KvUUU0ktjKc5Td5M
+KKKKZIUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAI
+WA60Agng01vvZ5HHUc00qeflwcdhQBKSB1oByMiosHsDjPpjtSYPHy8jHagCak3Djnr0pIxgHjkm
+m7Tzx93pQBICD0oJA61EVwBkE8frRtODxzkc0AS0E4GTURHH3efpnNPbnA9+aAHE49fypAQQfb2o
+Jxx1PpSAdQevX60ALuHv+RoLAHv+VIACTgnH1NB2g8k59MmgBSwGOvPtQGBOOfypAMAFjjHqaX7x
+z2xigBaQsFxnvRtP94/pQSAfU+lABuGMg5+nNAIPT+VH3evU0Dg89TQAtFFFABRRRQAUUUUAFFFF
+ABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUA
+FFFFABRRRQAUUUUAFFFFABkZxkZpNy/3h+dRsdkrMQxBXAwM1GEZWHDZ2qOP1oAsBlPRh+dLVUK2
+EyGwCvrxU0O453EnHy/l3oAfvXdt3Dd6Z5pSQBknAHc1ABiTChvvZIZenuDTSrspB39Pmznrnt/9
+agCyCCMg5FNMsanBdQfQmohu+0dGAzg9cf4VI4JlTrjmgB9FQL5hKg7uuCfp/jSxbt/O7od2emfb
+/wCtQBLvXdt3Dd6Z5o3DGcjHrURGJCFDctkqy5H1BpjhypDBzwcYz696ALNFVwJPNOS3fjBxjt3x
+T4N2GB3H3OefzoAlBBGQcijI/KooG/dhSGBA7qRTkyELEHJJOKAFWRHOFdWPsc06ossZVby2AAI6
+jvj39qeyEnIdl9hj+tACsyoMswUe5xQrK4yrBh7HNNfIUfM+enygHP6UKsgTl8tgdRwP5UAOJCjJ
+9cUF1UnLAYGTmo1Qsh3E7t3UjqAeKDklpAXUYA4Xk9e2PegCRXR87WDY9DmlpiK4XLOSTnAIHHp0
+ojDbmL8kHAOO2B0/GgB4IPQ5phljHWRB/wACFDcEqgIZuc44HbP/ANag/KojjBBxgHHAoAeCCMg5
+BoqN0ARVUNwQAASOP/1Uoj/dbCxPv3oAeCCMg5BoqNVDMCAQoJIz3J7/AM6Uoc8SOB6cf1FADiQC
+Ae5wKAQwyPXFNlRW2s4yFOcbc0kKCND8oUkknA96AJKKTcPf8qWgAooooAKKKKACiiigAooooAKK
+KKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKAAowAAPQUUUAF
+FFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUU
+UUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQB//2Q==
+			</helperscreenshot>
+		</mouseitem>
+		<invokeactionrecorditem
+		action="PerformClick"
+		enabled="True"
+		optional="False"
+		searchpropertyid="a90633b3-a7ec-4d93-8941-c9f44c41fc7d">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="2662da02-7e4b-4851-9802-fc499b1f2fb0"
+			sourcename="ItemRecorderEditor">
+				<path>
+					/dom[@domain='flymee.jp']//div[#'js-cartIn']/button[@innertext='カートに入れる']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<arguments
+			id="11cea7b5-260f-423e-b500-993e344f8d5d">
+			</arguments>
+		</invokeactionrecorditem>
+	</recorditems>
+	<repository
+	id="ef387f42-5691-4dfa-825a-5a9b6d70cfca"
+	name="Test1Repository"
+	relativepath="..\Test1Repository.rxrep">
+		<codegen
+		classname="Test1Repository"
+		namespace="Test1">
+		</codegen>
+		<rootfolder
+		id="96540a89-2691-429b-bfc6-fda3e58a0469"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		AddToCart2.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

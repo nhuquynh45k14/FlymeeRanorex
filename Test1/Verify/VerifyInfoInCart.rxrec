@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="98ecd9de-6320-4313-ae65-19e90e3f5050"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="VerifyInfoInCart"
+	namespace="Test1.Verify">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<validationitem
+		action="AttributeContains"
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		searchpropertyid="5d3d7f55-9bac-4211-bf79-8a7ca83d5214">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="529a6b71-047e-4147-be8a-feba0e1ab73c"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='flymee.jp']//p[text()~$productName]/../..//*[@class='list_quantity']//*[@class='sum']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<matchname>
+				InnerText
+			</matchname>
+			<matchvalue>
+				5
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		action="AttributeEqual"
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		searchpropertyid="9e7996ee-71b6-426e-a250-d7d497fa7e01">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="868000cf-a86e-4059-8876-71623cc91ded"
+			sourcename="ElementTree">
+				<element
+				capabilities="webelement, spantag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="1"
+				prefcap="spantag"
+				rect="1021,424,67,19"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						amount
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						¥321,200
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						amount
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						span
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='flymee.jp']/body/div[1]/div[2]/section[1]/div/div[1]//span[@innertext='¥321,200']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<helperscreenshot
+			guid="bf65cc9b-43d7-4487-852b-267eaaacc723">
+				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
+			</helperscreenshot>
+			<matchname>
+				InnerText
+			</matchname>
+			<matchvalue>
+				¥321,200
+			</matchvalue>
+		</validationitem>
+	</recorditems>
+	<repository
+	id="ef387f42-5691-4dfa-825a-5a9b6d70cfca"
+	name="Test1Repository"
+	relativepath="..\Test1Repository.rxrep">
+		<codegen
+		classname="Test1Repository"
+		namespace="Test1">
+		</codegen>
+		<rootfolder
+		id="96540a89-2691-429b-bfc6-fda3e58a0469"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		VerifyInfoInCartOfProduct.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

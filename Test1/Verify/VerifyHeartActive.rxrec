@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="17e0e59c-6904-4b79-8a7f-479d2ab07bc1"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="VerifyFavActive"
+	namespace="Test1.Verify">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<validationitem
+		action="AttributeContains"
+		enabled="True"
+		optional="False"
+		searchpropertyid="4630a3d1-53fb-4c1a-8269-bd6a05b6c178">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="3f477fd4-1f2a-477a-bf3b-7219b69161f7"
+			sourcename="ItemRecorderEditor">
+				<path>
+					/dom[@domain='flymee.jp']//*[@class~'fav_icon']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<matchname>
+				Class
+			</matchname>
+			<matchvalue>
+				active
+			</matchvalue>
+		</validationitem>
+	</recorditems>
+	<repository
+	id="ef387f42-5691-4dfa-825a-5a9b6d70cfca"
+	name="Test1Repository"
+	relativepath="..\Test1Repository.rxrep">
+		<codegen
+		classname="Test1Repository"
+		namespace="Test1">
+		</codegen>
+		<rootfolder
+		id="96540a89-2691-429b-bfc6-fda3e58a0469"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		VerifyHeartActive.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>
