@@ -1365,7 +1365,7 @@
 				<parameters>
 					<param
 					name="condition"
-					value="Mobile">
+					value="Desktop">
 					</param>
 				</parameters>
 			</testcase>
@@ -3249,22 +3249,16 @@
 		<testconfiguration
 		name="TestRun">
 			<testcontainer
-			id="3966f5b8-4a57-42cb-8c39-43090f51f6f9">
+			id="087c21bd-9bb3-402d-84ea-dd479e607fc8">
 			</testcontainer>
 			<testcontainer
-			id="3b2f1a4b-3b65-4d14-9659-b74d7420f18d">
-			</testcontainer>
-			<testcontainer
-			id="4854809d-3daa-4d0c-a82e-5ca9f0e40dec">
-			</testcontainer>
-			<testcontainer
-			id="7781a6b3-34f5-4639-a2dc-21a884b16f43">
+			id="5ad067ed-a418-43f5-bee8-fbdfa7ca5404">
 			</testcontainer>
 			<testcontainer
 			id="7cbb11c5-09aa-47a6-bbec-c1c6e15acaf0">
 			</testcontainer>
 			<testcontainer
-			id="9d46e7d4-83b6-458a-bddd-75847ba47412">
+			id="97cbe09c-d2cb-4be7-af22-12265c472fc0">
 			</testcontainer>
 		</testconfiguration>
 	</testconfigurations>

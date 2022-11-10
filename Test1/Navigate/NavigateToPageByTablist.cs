@@ -99,16 +99,17 @@ namespace Test1.Navigate
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Move item 'WebDocumentFLYMEe日本最大級の家具通販インテリア通販フライミー.HomePageUi.Tablist' at Center.", repo.WebDocumentFLYMEe日本最大級の家具通販インテリア通販フライミー.HomePageUi.TablistInfo, new RecordItemIndex(0));
+            Report.Log(ReportLevel.Info, "Invoke action", "Invoking WaitForDocumentLoaded() on item 'WebDocumentFLYMEe日本最大級の家具通販インテリア通販フライミー'.", repo.WebDocumentFLYMEe日本最大級の家具通販インテリア通販フライミー.SelfInfo, new RecordItemIndex(0));
+            repo.WebDocumentFLYMEe日本最大級の家具通販インテリア通販フライミー.Self.WaitForDocumentLoaded();
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Move item 'WebDocumentFLYMEe日本最大級の家具通販インテリア通販フライミー.HomePageUi.Tablist' at Center.", repo.WebDocumentFLYMEe日本最大級の家具通販インテリア通販フライミー.HomePageUi.TablistInfo, new RecordItemIndex(1));
             repo.WebDocumentFLYMEe日本最大級の家具通販インテリア通販フライミー.HomePageUi.Tablist.MoveTo();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'WebDocumentFLYMEe日本最大級の家具通販インテリア通販フライミー.HomePageUi.Option' at UpperLeft.", repo.WebDocumentFLYMEe日本最大級の家具通販インテリア通販フライミー.HomePageUi.OptionInfo, new RecordItemIndex(1));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'WebDocumentFLYMEe日本最大級の家具通販インテリア通販フライミー.HomePageUi.Option' at UpperLeft.", repo.WebDocumentFLYMEe日本最大級の家具通販インテリア通販フライミー.HomePageUi.OptionInfo, new RecordItemIndex(2));
             repo.WebDocumentFLYMEe日本最大級の家具通販インテリア通販フライミー.HomePageUi.Option.Click(Location.UpperLeft, new Duration(0));
             Delay.Milliseconds(300);
-            
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 10s.", new RecordItemIndex(2));
-            Delay.Duration(10000, false);
             
         }
 

@@ -25,6 +25,28 @@ mode="Desktop">
 	<variables>
 	</variables>
 	<recorditems>
+		<invokeactionrecorditem
+		action="WaitForDocumentLoaded"
+		enabled="True"
+		optional="False"
+		searchpropertyid="a476161f-6750-4e38-b17f-f8d7377c068c">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="7cafdc6b-6226-41ec-bbdf-bce737b2415d"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='flymee.jp']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<arguments
+			id="b30c4352-95aa-4994-a44f-4373f73f6bb7">
+			</arguments>
+		</invokeactionrecorditem>
 		<mouseitem
 		action="Move"
 		button="Left"
@@ -348,15 +370,6 @@ RRQIgaygY8oKclpEn3UFFFJjRZjUKvFOoooEFFFFMAooooAKKKKAGk1Tv79LLAZGdj09KKKljRlS
 X11d5HmeUn91OP1qqdkXRcn1NFFQaEUk7sOvHpVfeWOBRRTRI3P+0aKKKYj/2Q==
 			</helperscreenshot>
 		</mouseitem>
-		<explicitdelayitem
-		duration="10000ms"
-		enabled="True"
-		optional="False">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-		</explicitdelayitem>
 	</recorditems>
 	<repository
 	id="ef387f42-5691-4dfa-825a-5a9b6d70cfca"
