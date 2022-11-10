@@ -193,6 +193,18 @@ namespace Test1
             set { _value = value; }
         }
 
+        string _ArticleName = "";
+
+        /// <summary>
+        /// Gets or sets the value of variable ArticleName.
+        /// </summary>
+        [TestVariable("5288c46c-200c-4620-a24a-d2007863fd46")]
+        public string ArticleName
+        {
+            get { return _ArticleName; }
+            set { _ArticleName = value; }
+        }
+
 #endregion
 
         /// <summary>

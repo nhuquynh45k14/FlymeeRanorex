@@ -363,6 +363,18 @@
       <id>3b6704d6-4235-406c-805f-0f81315596f5</id>
       <BoundTo>d4c3c01d-9d35-43aa-81e5-b4bbe9541f22</BoundTo>
     </Compile>
+    <Compile Include="Navigate\NavigateToPageMobile.cs">
+      <BoundTo>dc46ddc6-53f4-44c9-a3ff-7ad453a266da</BoundTo>
+      <DependentUpon>NavigateToPageMobile.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>b3edd8f1-0719-4013-8bdf-e1a36bebaa04</id>
+    </Compile>
+    <Compile Include="Navigate\NavigateToPageMobile.UserCode.cs">
+      <BoundTo>dc46ddc6-53f4-44c9-a3ff-7ad453a266da</BoundTo>
+      <DependentUpon>NavigateToPageMobile.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>75bc1689-37e5-4c5f-9bba-f21bb52de44b</id>
+    </Compile>
     <Compile Include="Navigate\NavigateToPageByTablist.cs">
       <DependentUpon>NavigateToPageByTablist.rxrec</DependentUpon>
       <RecorderCode>true</RecorderCode>
@@ -803,6 +815,11 @@
       <BoundTo>c77a55f5-c510-4db3-bca9-7f3bb11046a6</BoundTo>
       <id>d4c3c01d-9d35-43aa-81e5-b4bbe9541f22</id>
       <recordtableid>75c61c6d-8905-4d93-bca7-f4b949cf64e4</recordtableid>
+    </None>
+    <None Include="Navigate\NavigateToPageMobile.rxrec">
+      <BoundTo>c77a55f5-c510-4db3-bca9-7f3bb11046a6</BoundTo>
+      <id>dc46ddc6-53f4-44c9-a3ff-7ad453a266da</id>
+      <recordtableid>8cf41142-3a10-4aff-93ef-515371b9ddab</recordtableid>
     </None>
     <None Include="Navigate\NavigateToPageByTablist.rxrec">
       <BoundTo>c77a55f5-c510-4db3-bca9-7f3bb11046a6</BoundTo>
