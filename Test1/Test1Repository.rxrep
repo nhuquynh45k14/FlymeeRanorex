@@ -218,15 +218,7 @@ name="Test1Repository">
 				refimgid="1101e7a5-1c67-4e6f-bd3a-239f10d98a86"
 				robustPath=""
 				searchtimeout="30000ms">
-					/dom[@domain='flymee.jp']//*[@class='search_result_area']//div[@class='caption_area']//*[text()~$productName]
-				</item>
-				<item
-				capname="unknown"
-				id="12c5f795-237e-4547-a569-0b85a8245571"
-				name="ProductResultMobile"
-				robustPath=""
-				searchtimeout="30000ms">
-					/dom[@domain='flymee.jp']//div[@class='caption_area']//*[text()~$productName]
+					/dom[@domain='flymee.jp']//*[@class~'search']//div[@class='caption_area']//*[text()~$productName]
 				</item>
 				<item
 				addcaps="unknown,webelement,atag"

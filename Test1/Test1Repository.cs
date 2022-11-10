@@ -935,7 +935,6 @@ namespace Test1
         public partial class CollectionPageUIFolder : RepoGenBaseFolder
         {
             RepoItemInfo _productinresultInfo;
-            RepoItemInfo _productresultmobileInfo;
             RepoItemInfo _btnfavInfo;
 
             /// <summary>
@@ -944,8 +943,7 @@ namespace Test1
             public CollectionPageUIFolder(RepoGenBaseFolder parentFolder) :
                     base("CollectionPageUI", "", parentFolder, 0, null, false, "5e6ab30f-6535-4fd1-b4ba-660557a76dbe", "")
             {
-                _productinresultInfo = new RepoItemInfo(this, "ProductInResult", ".//*[@class='search_result_area']//div[@class='caption_area']//*[text()~$productName]", "", 30000, null, "f3e2a56b-7801-4910-9b50-c3cafb29c04b");
-                _productresultmobileInfo = new RepoItemInfo(this, "ProductResultMobile", ".//div[@class='caption_area']//*[text()~$productName]", "", 30000, null, "12c5f795-237e-4547-a569-0b85a8245571");
+                _productinresultInfo = new RepoItemInfo(this, "ProductInResult", ".//*[@class~'search']//div[@class='caption_area']//*[text()~$productName]", "", 30000, null, "f3e2a56b-7801-4910-9b50-c3cafb29c04b");
                 _btnfavInfo = new RepoItemInfo(this, "btnFav", ".//*[@class='icon_favorite']", ".//a[@innertext='お気に入り']", 30000, null, "6796e3f5-8bd7-4c3a-8437-a442d3fbe59c");
             }
 
@@ -982,30 +980,6 @@ namespace Test1
                 get
                 {
                     return _productinresultInfo;
-                }
-            }
-
-            /// <summary>
-            /// The ProductResultMobile item.
-            /// </summary>
-            [RepositoryItem("12c5f795-237e-4547-a569-0b85a8245571")]
-            public virtual Ranorex.Unknown ProductResultMobile
-            {
-                get
-                {
-                    return _productresultmobileInfo.CreateAdapter<Ranorex.Unknown>(true);
-                }
-            }
-
-            /// <summary>
-            /// The ProductResultMobile item info.
-            /// </summary>
-            [RepositoryItemInfo("12c5f795-237e-4547-a569-0b85a8245571")]
-            public virtual RepoItemInfo ProductResultMobileInfo
-            {
-                get
-                {
-                    return _productresultmobileInfo;
                 }
             }
 

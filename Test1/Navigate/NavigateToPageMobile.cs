@@ -79,10 +79,6 @@ namespace Test1.Navigate
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Invoke action", "Invoking Focus() on item 'AboutOfFlymee'.", repo.AboutOfFlymee.SelfInfo, new RecordItemIndex(0));
-            repo.AboutOfFlymee.Self.Focus();
-            Delay.Milliseconds(0);
-            
         }
 
 #region Image Feature Data

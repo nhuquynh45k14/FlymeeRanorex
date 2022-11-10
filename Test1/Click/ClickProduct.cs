@@ -20,33 +20,33 @@ using Ranorex.Core;
 using Ranorex.Core.Testing;
 using Ranorex.Core.Repository;
 
-namespace Test1.Add
+namespace Test1.Click
 {
 #pragma warning disable 0436 //(CS0436) The type 'type' in 'assembly' conflicts with the imported type 'type2' in 'assembly'. Using the type defined in 'assembly'.
     /// <summary>
-    ///The AddToCartInDesktop recording.
+    ///The ClickProduct recording.
     /// </summary>
-    [TestModule("05717697-2328-4165-9163-5ffc89567f7e", ModuleType.Recording, 1)]
-    public partial class AddToCartInDesktop : ITestModule
+    [TestModule("5f2ed217-8630-4892-9a93-7d1c08e6c713", ModuleType.Recording, 1)]
+    public partial class ClickProduct : ITestModule
     {
         /// <summary>
         /// Holds an instance of the global::Test1.Test1Repository repository.
         /// </summary>
         public static global::Test1.Test1Repository repo = global::Test1.Test1Repository.Instance;
 
-        static AddToCartInDesktop instance = new AddToCartInDesktop();
+        static ClickProduct instance = new ClickProduct();
 
         /// <summary>
         /// Constructs a new instance.
         /// </summary>
-        public AddToCartInDesktop()
+        public ClickProduct()
         {
         }
 
         /// <summary>
         /// Gets a static instance of this recording.
         /// </summary>
-        public static AddToCartInDesktop Instance
+        public static ClickProduct Instance
         {
             get { return instance; }
         }
@@ -91,10 +91,6 @@ namespace Test1.Add
 
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'WebDocumentFLYMEe日本最大級の家具通販インテリア通販フライミー.CollectionPageUI.ProductInResult' at Center.", repo.WebDocumentFLYMEe日本最大級の家具通販インテリア通販フライミー.CollectionPageUI.ProductInResultInfo, new RecordItemIndex(0));
             repo.WebDocumentFLYMEe日本最大級の家具通販インテリア通販フライミー.CollectionPageUI.ProductInResult.Click();
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'WebDocumentFLYMEe日本最大級の家具通販インテリア通販フライミー.ProductPageUI.Btn_AddToCart' at Center.", repo.WebDocumentFLYMEe日本最大級の家具通販インテリア通販フライミー.ProductPageUI.Btn_AddToCartInfo, new RecordItemIndex(1));
-            repo.WebDocumentFLYMEe日本最大級の家具通販インテリア通販フライミー.ProductPageUI.Btn_AddToCart.Click();
             Delay.Milliseconds(0);
             
         }

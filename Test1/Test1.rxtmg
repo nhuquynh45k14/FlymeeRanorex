@@ -101,11 +101,6 @@ rxversion="9.5">
 						name="Product"
 						variableref="ee6e592d-22ef-47da-90fc-576678477ecd">
 						</modulevariable>
-						<modulevariable
-						moduleref="22423ee4-bd9b-4c96-a08a-19faf894d9e9"
-						name="productName"
-						variableref="17873c2f-5e98-499b-a9ee-33c983079180">
-						</modulevariable>
 					</groupvariable>
 				</groupvariables>
 			</modulegroupdef>

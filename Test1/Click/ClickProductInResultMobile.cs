@@ -89,8 +89,8 @@ namespace Test1.Click
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Touch", "Touch item 'WebDocumentFLYMEe日本最大級の家具通販インテリア通販フライミー.CollectionPageUI.ProductResultMobile' at Center", repo.WebDocumentFLYMEe日本最大級の家具通販インテリア通販フライミー.CollectionPageUI.ProductResultMobileInfo, new RecordItemIndex(0));
-            repo.WebDocumentFLYMEe日本最大級の家具通販インテリア通販フライミー.CollectionPageUI.ProductResultMobile.Touch();
+            Report.Log(ReportLevel.Info, "Touch", "Touch item 'WebDocumentFLYMEe日本最大級の家具通販インテリア通販フライミー.CollectionPageUI.ProductInResult' at Center", repo.WebDocumentFLYMEe日本最大級の家具通販インテリア通販フライミー.CollectionPageUI.ProductInResultInfo, new RecordItemIndex(0));
+            repo.WebDocumentFLYMEe日本最大級の家具通販インテリア通販フライミー.CollectionPageUI.ProductInResult.Touch();
             Delay.Milliseconds(300);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'WebDocumentFLYMEe日本最大級の家具通販インテリア通販フライミー.ProductPageUI.Btn_AddToCart' at Center.", repo.WebDocumentFLYMEe日本最大級の家具通販インテリア通販フライミー.ProductPageUI.Btn_AddToCartInfo, new RecordItemIndex(1));

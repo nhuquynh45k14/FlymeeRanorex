@@ -19,7 +19,7 @@ mode="Desktop">
 		True
 	</useDefaultItemLogging>
 	<codegen
-	classname="ClickProductInDesktop"
+	classname="ClickProduct"
 	namespace="Test1.Click">
 	</codegen>
 	<variables>

@@ -135,14 +135,14 @@
       <id>881b2338-7004-40aa-af8b-66e413756bcf</id>
       <BoundTo>534e7fe2-942b-4801-b8af-13a10b66aad3</BoundTo>
     </Compile>
-    <Compile Include="Add\AddToCartInDesktop.cs">
-      <DependentUpon>AddToCartInDesktop.rxrec</DependentUpon>
+    <Compile Include="Add\AddToCart.cs">
+      <DependentUpon>AddToCart.rxrec</DependentUpon>
       <RecorderCode>true</RecorderCode>
       <id>d6c46ea8-782e-4c29-b4e7-b978312de742</id>
       <BoundTo>b9004897-13b5-43bb-ad64-0bd228d8ce31</BoundTo>
     </Compile>
-    <Compile Include="Add\AddToCartInDesktop.UserCode.cs">
-      <DependentUpon>AddToCartInDesktop.rxrec</DependentUpon>
+    <Compile Include="Add\AddToCart.UserCode.cs">
+      <DependentUpon>AddToCart.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>17381a6f-8675-47c7-a3d6-b3e92ac01589</id>
       <BoundTo>b9004897-13b5-43bb-ad64-0bd228d8ce31</BoundTo>
@@ -207,29 +207,17 @@
       <id>a1848a67-1e11-49cb-8cae-dd517f2570e9</id>
       <BoundTo>f63bbf10-259d-4d4f-b8ef-e198fdddfcd4</BoundTo>
     </Compile>
-    <Compile Include="Click\ClickProductInDesktop.cs">
-      <DependentUpon>ClickProductInDesktop.rxrec</DependentUpon>
+    <Compile Include="Click\ClickProduct.cs">
+      <DependentUpon>ClickProduct.rxrec</DependentUpon>
       <RecorderCode>true</RecorderCode>
       <id>fbd35a03-1d53-4731-8ff0-4515f600cd8e</id>
       <BoundTo>a9d2a503-e9c3-438e-9855-db82dde42fe6</BoundTo>
     </Compile>
-    <Compile Include="Click\ClickProductInDesktop.UserCode.cs">
-      <DependentUpon>ClickProductInDesktop.rxrec</DependentUpon>
+    <Compile Include="Click\ClickProduct.UserCode.cs">
+      <DependentUpon>ClickProduct.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>f7ade40e-88cb-4c70-8cd8-52eb7f0ec6fe</id>
       <BoundTo>a9d2a503-e9c3-438e-9855-db82dde42fe6</BoundTo>
-    </Compile>
-    <Compile Include="Click\ClickProductInMobile.cs">
-      <DependentUpon>ClickProductInMobile.rxrec</DependentUpon>
-      <RecorderCode>true</RecorderCode>
-      <id>69cad67a-5b7e-452b-aae3-56b81f571a2b</id>
-      <BoundTo>54eb30c9-a292-4fdc-bd50-16fcbc0afeb6</BoundTo>
-    </Compile>
-    <Compile Include="Click\ClickProductInMobile.UserCode.cs">
-      <DependentUpon>ClickProductInMobile.rxrec</DependentUpon>
-      <UserCode>true</UserCode>
-      <id>55319b92-f378-4487-b099-763799410be5</id>
-      <BoundTo>54eb30c9-a292-4fdc-bd50-16fcbc0afeb6</BoundTo>
     </Compile>
     <Compile Include="Click\ClickProductInResultMobile.cs">
       <DependentUpon>ClickProductInResultMobile.rxrec</DependentUpon>
@@ -266,18 +254,6 @@
       <UserCode>true</UserCode>
       <id>6771de15-71fd-4205-ac86-4f7752fb7d32</id>
       <BoundTo>b3345509-568e-4867-95cb-036f8e6a5144</BoundTo>
-    </Compile>
-    <Compile Include="Add\AddToCart.cs">
-      <DependentUpon>AddToCart.rxrec</DependentUpon>
-      <RecorderCode>true</RecorderCode>
-      <id>e228ab70-8066-4d02-b68a-37ee8e2d0c28</id>
-      <BoundTo>cd131869-8ae2-43eb-8636-cdfe7165bc97</BoundTo>
-    </Compile>
-    <Compile Include="Add\AddToCart.UserCode.cs">
-      <DependentUpon>AddToCart.rxrec</DependentUpon>
-      <UserCode>true</UserCode>
-      <id>da4d724f-d874-40da-a5ec-0ae3aaff28c9</id>
-      <BoundTo>cd131869-8ae2-43eb-8636-cdfe7165bc97</BoundTo>
     </Compile>
     <Compile Include="Edit\EditQuantityOfProduct.cs">
       <DependentUpon>EditQuantityOfProduct.rxrec</DependentUpon>
@@ -721,7 +697,7 @@
       <id>534e7fe2-942b-4801-b8af-13a10b66aad3</id>
       <recordtableid>4ee1feb5-0371-4903-9e22-ba9264359a9a</recordtableid>
     </None>
-    <None Include="Add\AddToCartInDesktop.rxrec">
+    <None Include="Add\AddToCart.rxrec">
       <BoundTo>c77a55f5-c510-4db3-bca9-7f3bb11046a6</BoundTo>
       <id>b9004897-13b5-43bb-ad64-0bd228d8ce31</id>
       <recordtableid>05717697-2328-4165-9163-5ffc89567f7e</recordtableid>
@@ -751,15 +727,10 @@
       <id>f63bbf10-259d-4d4f-b8ef-e198fdddfcd4</id>
       <recordtableid>9f888f2e-1dc4-435c-94e8-9cc9b4e40003</recordtableid>
     </None>
-    <None Include="Click\ClickProductInDesktop.rxrec">
+    <None Include="Click\ClickProduct.rxrec">
       <BoundTo>c77a55f5-c510-4db3-bca9-7f3bb11046a6</BoundTo>
       <id>a9d2a503-e9c3-438e-9855-db82dde42fe6</id>
       <recordtableid>5f2ed217-8630-4892-9a93-7d1c08e6c713</recordtableid>
-    </None>
-    <None Include="Click\ClickProductInMobile.rxrec">
-      <BoundTo>c77a55f5-c510-4db3-bca9-7f3bb11046a6</BoundTo>
-      <id>54eb30c9-a292-4fdc-bd50-16fcbc0afeb6</id>
-      <recordtableid>bf9712c1-25ac-41e6-99e6-b9a7fc6bd5c2</recordtableid>
     </None>
     <None Include="Click\ClickProductInResultMobile.rxrec">
       <BoundTo>c77a55f5-c510-4db3-bca9-7f3bb11046a6</BoundTo>
@@ -775,11 +746,6 @@
       <BoundTo>c77a55f5-c510-4db3-bca9-7f3bb11046a6</BoundTo>
       <id>b3345509-568e-4867-95cb-036f8e6a5144</id>
       <recordtableid>f2be3aa8-f593-41ca-a621-e8b0624bccf0</recordtableid>
-    </None>
-    <None Include="Add\AddToCart.rxrec">
-      <BoundTo>c77a55f5-c510-4db3-bca9-7f3bb11046a6</BoundTo>
-      <id>cd131869-8ae2-43eb-8636-cdfe7165bc97</id>
-      <recordtableid>a97731a9-a5b1-4068-aa05-4b535a32046a</recordtableid>
     </None>
     <None Include="Edit\EditQuantityOfProduct.rxrec">
       <BoundTo>c77a55f5-c510-4db3-bca9-7f3bb11046a6</BoundTo>

@@ -46,10 +46,10 @@ mode="Global">
 			<bindings>
 			</bindings>
 			<info
-			id="12c5f795-237e-4547-a569-0b85a8245571"
+			id="f3e2a56b-7801-4910-9b50-c3cafb29c04b"
 			sourcename="RepositoryEditor">
 				<path>
-					/dom[@domain='flymee.jp']//div[@class='caption_area']//*[text()~$productName]
+					/dom[@domain='flymee.jp']//*[@class~'search']//div[@class='caption_area']//*[text()~$productName]
 				</path>
 				<robustPath>
 				</robustPath>

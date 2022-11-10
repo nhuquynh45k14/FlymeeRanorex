@@ -221,6 +221,12 @@
 					variableid="58407755-83ed-4e97-993b-e1965c2b3b13"
 					variablename="btnMenuVisible">
 					</var>
+					<var
+					dataname="productName1"
+					datasourceid="e113adec-dcda-47e5-8c25-cde472830d6f"
+					variableid="17873c2f-5e98-499b-a9ee-33c983079180"
+					variablename="productName">
+					</var>
 				</databinding>
 			</testmodule>
 			<setup
@@ -254,6 +260,20 @@
 					variablename="Product">
 					</var>
 				</missingdatabinding>
+			</testmodule>
+			<testmodule
+			id="1dba4f46-d523-4884-84ed-399ccd1a930d"
+			name="ClickProduct"
+			ref="5f2ed217-8630-4892-9a93-7d1c08e6c713"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="ProductName"
+					datasourceid="7f63edda-07ba-4d1d-8f3c-4ae5b02df59a"
+					variableid="17873c2f-5e98-499b-a9ee-33c983079180"
+					variablename="productName">
+					</var>
+				</databinding>
 			</testmodule>
 			<teardown
 			id="1f6779f1-827d-4104-8e5a-e4ae57584727"
@@ -308,28 +328,6 @@
 					</var>
 				</missingdatabinding>
 			</testmodule>
-			<testmodule
-			id="28a58802-2d61-4d12-aa11-5efd5c86ba53"
-			name="AddToCartInMobile"
-			ref="769b26cd-f702-475b-8d84-daa2532e72e9"
-			type="Recording">
-				<databinding>
-					<var
-					dataname="Product"
-					datasourceid="20e3f213-1f7d-4715-9ae7-8e57804dff81"
-					variableid="17873c2f-5e98-499b-a9ee-33c983079180"
-					variablename="productName">
-					</var>
-				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="NewParameter"
-					datasourceid="5c716f28-9e6c-4e5a-9991-7e449231a7c2"
-					variableid="17873c2f-5e98-499b-a9ee-33c983079180"
-					variablename="productName">
-					</var>
-				</missingdatabinding>
-			</testmodule>
 			<teardown
 			id="293a1d3e-f510-47db-9c58-dfbd97eefa0b"
 			name="teardown">
@@ -373,7 +371,7 @@
 			</testcase>
 			<testmodule
 			id="2e720bff-188c-4c45-9734-fdf0fca89f0c"
-			name="AddToCartInDesktop"
+			name="AddToCart"
 			ref="05717697-2328-4165-9163-5ffc89567f7e"
 			type="Recording">
 				<databinding>
@@ -415,7 +413,7 @@
 			</testmodule>
 			<testmodule
 			id="327d18b6-1123-400f-9754-a878928e5d6e"
-			name="ClickProductInDesktop"
+			name="ClickProduct"
 			ref="5f2ed217-8630-4892-9a93-7d1c08e6c713"
 			type="Recording">
 				<databinding>
@@ -589,28 +587,6 @@
 					</condition>
 				</conditiongroup>
 			</smartfoldernode>
-			<testmodule
-			id="3a5a88d8-82d8-4838-b3bb-de88f4411abe"
-			name="AddToCartInMobile"
-			ref="769b26cd-f702-475b-8d84-daa2532e72e9"
-			type="Recording">
-				<databinding>
-					<var
-					dataname="productName"
-					datasourceid="3b2f1a4b-3b65-4d14-9659-b74d7420f18d"
-					variableid="17873c2f-5e98-499b-a9ee-33c983079180"
-					variablename="productName">
-					</var>
-				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="Product"
-					datasourceid="20e3f213-1f7d-4715-9ae7-8e57804dff81"
-					variableid="17873c2f-5e98-499b-a9ee-33c983079180"
-					variablename="productName">
-					</var>
-				</missingdatabinding>
-			</testmodule>
 			<testcase
 			datasource="NewConnector1"
 			id="3b2f1a4b-3b65-4d14-9659-b74d7420f18d"
@@ -726,6 +702,37 @@
 					</param>
 				</parameters>
 			</testcase>
+			<smartfoldernode
+			id="4854809d-3daa-4d0c-a82e-5ca9f0e40dec"
+			name="EditProductMobile">
+				<parameters>
+					<param
+					name="NewParameter"
+					value="4">
+					</param>
+				</parameters>
+				<conditiongroup
+				comparison="AND"
+				enabled="True">
+					<condition
+					comparison="IsEqual">
+						<leftvalue>
+							<datavaluesource>
+								<databinding
+								bindingtype="Parameter"
+								dataname="condition"
+								id="7cbb11c5-09aa-47a6-bbec-c1c6e15acaf0">
+								</databinding>
+							</datavaluesource>
+						</leftvalue>
+						<rightvalue>
+							<simplevaluesource
+							value="Mobile">
+							</simplevaluesource>
+						</rightvalue>
+					</condition>
+				</conditiongroup>
+			</smartfoldernode>
 			<smartfoldernode
 			id="490d3d93-43b9-4451-b782-f85e1f3ae57e"
 			name="Case1">
@@ -1326,6 +1333,31 @@
 					</condition>
 				</conditiongroup>
 			</smartfoldernode>
+			<smartfoldernode
+			id="7781a6b3-34f5-4639-a2dc-21a884b16f43"
+			name="EditProductDesktop">
+				<conditiongroup
+				comparison="AND"
+				enabled="True">
+					<condition
+					comparison="IsEqual">
+						<leftvalue>
+							<datavaluesource>
+								<databinding
+								bindingtype="Parameter"
+								dataname="condition"
+								id="7cbb11c5-09aa-47a6-bbec-c1c6e15acaf0">
+								</databinding>
+							</datavaluesource>
+						</leftvalue>
+						<rightvalue>
+							<simplevaluesource
+							value="Desktop">
+							</simplevaluesource>
+						</rightvalue>
+					</condition>
+				</conditiongroup>
+			</smartfoldernode>
 			<testcase
 			id="7cbb11c5-09aa-47a6-bbec-c1c6e15acaf0"
 			name="Test1"
@@ -1461,12 +1493,20 @@
 					variablename="productName">
 					</var>
 					<var
+					dataname="NewParameter"
+					datasourceid="4854809d-3daa-4d0c-a82e-5ca9f0e40dec"
+					variableid="3b838666-eb21-4b38-96b6-76d466feba5b"
+					variablename="value">
+					</var>
+				</databinding>
+				<missingdatabinding>
+					<var
 					dataname="quantity"
 					datasourceid="3966f5b8-4a57-42cb-8c39-43090f51f6f9"
 					variableid="3b838666-eb21-4b38-96b6-76d466feba5b"
 					variablename="value">
 					</var>
-				</databinding>
+				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="8e797af6-a091-4b55-9dc0-5b7aa964fdaa"
@@ -1542,16 +1582,10 @@
 			name="AddToFavourite"
 			ref="67a526c1-aae1-49b3-a495-0166342fd7bf"
 			type="Recording">
-			</testmodule>
-			<testmodule
-			id="9caf6234-64a5-4ba6-ad76-d720e3e5758d"
-			name="ClickProductInMobile"
-			ref="bf9712c1-25ac-41e6-99e6-b9a7fc6bd5c2"
-			type="Recording">
 				<databinding>
 					<var
-					dataname="productName1"
-					datasourceid="e113adec-dcda-47e5-8c25-cde472830d6f"
+					dataname="Product"
+					datasourceid="c00e5fa3-0d4d-4aa4-9474-9e6210666d3c"
 					variableid="17873c2f-5e98-499b-a9ee-33c983079180"
 					variablename="productName">
 					</var>
@@ -1671,13 +1705,13 @@
 			</teardown>
 			<testmodule
 			id="a981bf25-e7d2-4414-bbdf-ec4807998dff"
-			name="AddToCartInDesktop"
+			name="AddToCart"
 			ref="05717697-2328-4165-9163-5ffc89567f7e"
 			type="Recording">
 				<databinding>
 					<var
-					dataname="condition"
-					datasourceid="7cbb11c5-09aa-47a6-bbec-c1c6e15acaf0"
+					dataname="productName"
+					datasourceid="3b2f1a4b-3b65-4d14-9659-b74d7420f18d"
 					variableid="17873c2f-5e98-499b-a9ee-33c983079180"
 					variablename="productName">
 					</var>
@@ -1819,20 +1853,6 @@
 			id="b6ed71dd-87e6-4035-8860-ac157dd4cbcd"
 			name="teardown">
 			</teardown>
-			<testmodule
-			id="b70ba746-eccf-4a8f-9f1a-25404a409a14"
-			name="ClickProductInMobile"
-			ref="bf9712c1-25ac-41e6-99e6-b9a7fc6bd5c2"
-			type="Recording">
-				<databinding>
-					<var
-					dataname="ProductName"
-					datasourceid="7f63edda-07ba-4d1d-8f3c-4ae5b02df59a"
-					variableid="17873c2f-5e98-499b-a9ee-33c983079180"
-					variablename="productName">
-					</var>
-				</databinding>
-			</testmodule>
 			<testcase
 			datasource="NewConnector1"
 			id="b90bf2fc-eef9-49ea-8944-c132437d0a3d"
@@ -1885,28 +1905,6 @@
 					variablename="Text2">
 					</var>
 				</databinding>
-			</testmodule>
-			<testmodule
-			id="baf0b3db-48ac-4572-a5f9-4e5c4606c167"
-			name="AddToCartInMobile"
-			ref="769b26cd-f702-475b-8d84-daa2532e72e9"
-			type="Recording">
-				<databinding>
-					<var
-					dataname="ProductName2"
-					datasourceid="47720d2a-d696-4d05-8f0b-0ee92359cc50"
-					variableid="17873c2f-5e98-499b-a9ee-33c983079180"
-					variablename="productName">
-					</var>
-				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="NewParameter"
-					datasourceid="5c716f28-9e6c-4e5a-9991-7e449231a7c2"
-					variableid="17873c2f-5e98-499b-a9ee-33c983079180"
-					variablename="productName">
-					</var>
-				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="bafdf177-612b-488c-9797-092a2212e404"
@@ -1965,20 +1963,6 @@
 					</param>
 				</parameters>
 			</testcase>
-			<testmodule
-			id="c36457e0-a377-4c79-94db-07e1f6d525a7"
-			name="ClickProductInMobile"
-			ref="bf9712c1-25ac-41e6-99e6-b9a7fc6bd5c2"
-			type="Recording">
-				<databinding>
-					<var
-					dataname="Product"
-					datasourceid="c00e5fa3-0d4d-4aa4-9474-9e6210666d3c"
-					variableid="17873c2f-5e98-499b-a9ee-33c983079180"
-					variablename="productName">
-					</var>
-				</databinding>
-			</testmodule>
 			<setup
 			id="c3d59a16-57b5-4f36-86a9-0f78f8a4e1d1"
 			name="setup">
@@ -2043,7 +2027,7 @@
 			</testmodule>
 			<testmodule
 			id="da4328d4-4aa8-4f04-81b1-127db0b5719e"
-			name="AddToCartInDesktop"
+			name="AddToCart"
 			ref="05717697-2328-4165-9163-5ffc89567f7e"
 			type="Recording">
 				<databinding>
@@ -2154,28 +2138,6 @@
 					</var>
 				</databinding>
 			</testmodule>
-			<testmodule
-			id="dee988bc-14d4-45f0-9a73-60c7581e20c4"
-			name="AddToCartInMobile"
-			ref="769b26cd-f702-475b-8d84-daa2532e72e9"
-			type="Recording">
-				<databinding>
-					<var
-					dataname="NewParameter"
-					datasourceid="5c716f28-9e6c-4e5a-9991-7e449231a7c2"
-					variableid="17873c2f-5e98-499b-a9ee-33c983079180"
-					variablename="productName">
-					</var>
-				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="productName1"
-					datasourceid="e113adec-dcda-47e5-8c25-cde472830d6f"
-					variableid="17873c2f-5e98-499b-a9ee-33c983079180"
-					variablename="productName">
-					</var>
-				</missingdatabinding>
-			</testmodule>
 			<testsuite
 			ReportTime="RelativeToTestSuiteStartTime"
 			TracingScreenshotMode="Foreground"
@@ -2264,7 +2226,7 @@
 			</smartfoldernode>
 			<testmodule
 			id="e287782b-a0d5-4a8e-8577-1ba600cd7689"
-			name="AddToCartInDesktop"
+			name="AddToCart"
 			ref="05717697-2328-4165-9163-5ffc89567f7e"
 			type="Recording">
 				<databinding>
@@ -2352,20 +2314,6 @@
 					datasourceid="c00e5fa3-0d4d-4aa4-9474-9e6210666d3c"
 					variableid="042ae597-1066-48fc-ab3e-946c503b3951"
 					variablename="ProductName">
-					</var>
-				</databinding>
-			</testmodule>
-			<testmodule
-			id="eba7db3f-7adf-4ed7-bec7-d24b42596682"
-			name="ClickProductInDesktop"
-			ref="5f2ed217-8630-4892-9a93-7d1c08e6c713"
-			type="Recording">
-				<databinding>
-					<var
-					dataname="productName1"
-					datasourceid="e113adec-dcda-47e5-8c25-cde472830d6f"
-					variableid="17873c2f-5e98-499b-a9ee-33c983079180"
-					variablename="productName">
 					</var>
 				</databinding>
 			</testmodule>
@@ -2570,20 +2518,6 @@
 					</var>
 				</databinding>
 			</testmodule>
-			<testmodule
-			id="ff93abf2-b549-41d1-adab-15cd8bd24b02"
-			name="ClickProductInDesktop"
-			ref="5f2ed217-8630-4892-9a93-7d1c08e6c713"
-			type="Recording">
-				<databinding>
-					<var
-					dataname="Product"
-					datasourceid="c00e5fa3-0d4d-4aa4-9474-9e6210666d3c"
-					variableid="17873c2f-5e98-499b-a9ee-33c983079180"
-					variablename="productName">
-					</var>
-				</databinding>
-			</testmodule>
 		</flatlistofchildren>
 		<childhierarchy>
 			<testsuite
@@ -2610,10 +2544,6 @@
 							id="726ef709-fc66-4069-a785-6311213899f3"
 							name="SearchProduct">
 							</testmodule>
-							<testmodule
-							id="ff93abf2-b549-41d1-adab-15cd8bd24b02"
-							name="ClickProductInDesktop">
-							</testmodule>
 						</smartfoldernode>
 						<smartfoldernode
 						id="4a922c34-798d-43d2-95c0-9cc085e807a1"
@@ -2621,10 +2551,6 @@
 							<testmodule
 							id="e86b4f6a-1a0e-468a-9b29-179f8d74c951"
 							name="SearchInMobile">
-							</testmodule>
-							<testmodule
-							id="c36457e0-a377-4c79-94db-07e1f6d525a7"
-							name="ClickProductInMobile">
 							</testmodule>
 						</smartfoldernode>
 						<testmodule
@@ -2662,10 +2588,6 @@
 							id="dd324c8c-6662-4800-861c-e348bdc1416d"
 							name="SearchProduct">
 							</testmodule>
-							<testmodule
-							id="eba7db3f-7adf-4ed7-bec7-d24b42596682"
-							name="ClickProductInDesktop">
-							</testmodule>
 						</smartfoldernode>
 						<smartfoldernode
 						id="0d5023a5-f4fd-4361-9e61-0ccf5bcfe7c0"
@@ -2673,10 +2595,6 @@
 							<testmodule
 							id="395e2f2f-be2f-4947-a731-dd90d294ca90"
 							name="SearchInMobile">
-							</testmodule>
-							<testmodule
-							id="9caf6234-64a5-4ba6-ad76-d720e3e5758d"
-							name="ClickProductInMobile">
 							</testmodule>
 						</smartfoldernode>
 						<testmodule
@@ -2746,10 +2664,6 @@
 							id="6655c649-8d9f-481b-8bb1-90bbb8b48fee"
 							name="SearchInMobile">
 							</testmodule>
-							<testmodule
-							id="dee988bc-14d4-45f0-9a73-60c7581e20c4"
-							name="AddToCartInMobile">
-							</testmodule>
 						</smartfoldernode>
 						<smartfoldernode
 						id="f04cf6ca-b02d-45f2-9ff2-bb1ca80097e2"
@@ -2758,11 +2672,11 @@
 							id="401e8bbc-816a-4873-998b-19f3b9f319ab"
 							name="SearchProduct">
 							</testmodule>
-							<testmodule
-							id="e287782b-a0d5-4a8e-8577-1ba600cd7689"
-							name="AddToCartInDesktop">
-							</testmodule>
 						</smartfoldernode>
+						<testmodule
+						id="e287782b-a0d5-4a8e-8577-1ba600cd7689"
+						name="AddToCart">
+						</testmodule>
 						<testmodule
 						id="8338942f-4cf8-4050-9858-e532db1eb893"
 						name="VerifyProductInCartExist">
@@ -2798,10 +2712,6 @@
 							id="95368bc5-5540-43fd-8739-741793caf7d5"
 							name="SearchInMobile">
 							</testmodule>
-							<testmodule
-							id="baf0b3db-48ac-4572-a5f9-4e5c4606c167"
-							name="AddToCartInMobile">
-							</testmodule>
 						</smartfoldernode>
 						<smartfoldernode
 						id="3a39bc5a-c269-49b4-abf4-b19c0168fae5"
@@ -2810,11 +2720,11 @@
 							id="18bd24b1-0474-4097-a9fe-40c6c650a04d"
 							name="SearchProduct">
 							</testmodule>
-							<testmodule
-							id="2e720bff-188c-4c45-9734-fdf0fca89f0c"
-							name="AddToCartInDesktop">
-							</testmodule>
 						</smartfoldernode>
+						<testmodule
+						id="2e720bff-188c-4c45-9734-fdf0fca89f0c"
+						name="AddToCart">
+						</testmodule>
 						<testmodule
 						id="fab0a0a6-f8c7-42f8-865f-0ba5c394aabf"
 						name="DeleteProductInCart">
@@ -2902,10 +2812,6 @@
 							id="3877f07c-f3bb-4fe9-b809-e5c42ce712fe"
 							name="SearchInMobile">
 							</testmodule>
-							<testmodule
-							id="28a58802-2d61-4d12-aa11-5efd5c86ba53"
-							name="AddToCartInMobile">
-							</testmodule>
 						</smartfoldernode>
 						<smartfoldernode
 						id="7158afaf-1709-4c6f-969a-8bc7551eceba"
@@ -2914,11 +2820,11 @@
 							id="09739b14-f950-4b23-b94b-683e03289144"
 							name="SearchProduct">
 							</testmodule>
-							<testmodule
-							id="da4328d4-4aa8-4f04-81b1-127db0b5719e"
-							name="AddToCartInDesktop">
-							</testmodule>
 						</smartfoldernode>
+						<testmodule
+						id="da4328d4-4aa8-4f04-81b1-127db0b5719e"
+						name="AddToCart">
+						</testmodule>
 						<testmodule
 						id="82b98ae2-fe0a-456c-be2f-7850485648e6"
 						name="GotoPageByLinkText">
@@ -2955,8 +2861,8 @@
 							name="SearchInMobile">
 							</testmodule>
 							<testmodule
-							id="b70ba746-eccf-4a8f-9f1a-25404a409a14"
-							name="ClickProductInMobile">
+							id="1dba4f46-d523-4884-84ed-399ccd1a930d"
+							name="ClickProduct">
 							</testmodule>
 							<testmodule
 							id="b92bb188-c6f7-4e42-9ac4-d39b1688faa8"
@@ -2980,7 +2886,7 @@
 							</testmodule>
 							<testmodule
 							id="327d18b6-1123-400f-9754-a878928e5d6e"
-							name="ClickProductInDesktop">
+							name="ClickProduct">
 							</testmodule>
 							<testmodule
 							id="4025f1fc-f128-402b-bd4c-d13a132f6735"
@@ -3054,10 +2960,22 @@
 							id="235199c3-7af1-4d75-abc5-7564b2038361"
 							name="SearchInMobile">
 							</testmodule>
+						</smartfoldernode>
+						<smartfoldernode
+						id="9d46e7d4-83b6-458a-bddd-75847ba47412"
+						name="SearchInDesktop">
 							<testmodule
-							id="3a5a88d8-82d8-4838-b3bb-de88f4411abe"
-							name="AddToCartInMobile">
+							id="8e797af6-a091-4b55-9dc0-5b7aa964fdaa"
+							name="SearchProduct">
 							</testmodule>
+						</smartfoldernode>
+						<testmodule
+						id="a981bf25-e7d2-4414-bbdf-ec4807998dff"
+						name="AddToCart">
+						</testmodule>
+						<smartfoldernode
+						id="4854809d-3daa-4d0c-a82e-5ca9f0e40dec"
+						name="EditProductMobile">
 							<testmodule
 							id="8c38b626-8523-483a-8360-b145dd0e2ff4"
 							name="EditQuantityOfProductInMobile">
@@ -3068,23 +2986,15 @@
 							</testmodule>
 						</smartfoldernode>
 						<smartfoldernode
-						id="9d46e7d4-83b6-458a-bddd-75847ba47412"
-						name="SearchInDesktop">
+						id="7781a6b3-34f5-4639-a2dc-21a884b16f43"
+						name="EditProductDesktop">
 							<testmodule
-							id="8e797af6-a091-4b55-9dc0-5b7aa964fdaa"
-							name="SearchProduct">
-							</testmodule>
-							<testmodule
-							id="a981bf25-e7d2-4414-bbdf-ec4807998dff"
-							name="AddToCartInDesktop">
+							id="2c9aa9ef-2b4c-46ce-ae28-ef2dc36be6c1"
+							name="VerifyInfoInCart">
 							</testmodule>
 							<testmodule
 							id="65ebac81-032c-456d-b215-55694dec1760"
 							name="EditQuantityOfProduct">
-							</testmodule>
-							<testmodule
-							id="2c9aa9ef-2b4c-46ce-ae28-ef2dc36be6c1"
-							name="VerifyInfoInCart">
 							</testmodule>
 						</smartfoldernode>
 						<teardown
@@ -3339,109 +3249,22 @@
 		<testconfiguration
 		name="TestRun">
 			<testcontainer
-			id="02f0da6d-a6b9-47e8-8dd0-52dba2f8a149">
-			</testcontainer>
-			<testcontainer
-			id="0379e410-0930-4d68-a508-2ee450860f20">
-			</testcontainer>
-			<testcontainer
-			id="087c21bd-9bb3-402d-84ea-dd479e607fc8">
-			</testcontainer>
-			<testcontainer
-			id="0d5023a5-f4fd-4361-9e61-0ccf5bcfe7c0">
-			</testcontainer>
-			<testcontainer
-			id="0dd72724-76aa-47dd-8e76-28d3102e019b">
-			</testcontainer>
-			<testcontainer
-			id="20e3f213-1f7d-4715-9ae7-8e57804dff81">
-			</testcontainer>
-			<testcontainer
-			id="2d3806e5-71d9-4c3d-a770-fd7aaf6fe36f">
-			</testcontainer>
-			<testcontainer
 			id="3966f5b8-4a57-42cb-8c39-43090f51f6f9">
-			</testcontainer>
-			<testcontainer
-			id="3a39bc5a-c269-49b4-abf4-b19c0168fae5">
 			</testcontainer>
 			<testcontainer
 			id="3b2f1a4b-3b65-4d14-9659-b74d7420f18d">
 			</testcontainer>
 			<testcontainer
-			id="4721092d-c53a-4699-927b-49b6f5a9868b">
+			id="4854809d-3daa-4d0c-a82e-5ca9f0e40dec">
 			</testcontainer>
 			<testcontainer
-			id="47720d2a-d696-4d05-8f0b-0ee92359cc50">
-			</testcontainer>
-			<testcontainer
-			id="490d3d93-43b9-4451-b782-f85e1f3ae57e">
-			</testcontainer>
-			<testcontainer
-			id="49144a2e-de15-4994-b691-253a5d656197">
-			</testcontainer>
-			<testcontainer
-			id="4a922c34-798d-43d2-95c0-9cc085e807a1">
-			</testcontainer>
-			<testcontainer
-			id="5ad067ed-a418-43f5-bee8-fbdfa7ca5404">
-			</testcontainer>
-			<testcontainer
-			id="5c716f28-9e6c-4e5a-9991-7e449231a7c2">
-			</testcontainer>
-			<testcontainer
-			id="5edcde81-c920-4482-abe9-a52ef3309a76">
-			</testcontainer>
-			<testcontainer
-			id="7158afaf-1709-4c6f-969a-8bc7551eceba">
-			</testcontainer>
-			<testcontainer
-			id="770eb8ff-7ffa-44b4-8dd5-de089ae051f9">
+			id="7781a6b3-34f5-4639-a2dc-21a884b16f43">
 			</testcontainer>
 			<testcontainer
 			id="7cbb11c5-09aa-47a6-bbec-c1c6e15acaf0">
 			</testcontainer>
 			<testcontainer
-			id="7f63edda-07ba-4d1d-8f3c-4ae5b02df59a">
-			</testcontainer>
-			<testcontainer
-			id="97cbe09c-d2cb-4be7-af22-12265c472fc0">
-			</testcontainer>
-			<testcontainer
 			id="9d46e7d4-83b6-458a-bddd-75847ba47412">
-			</testcontainer>
-			<testcontainer
-			id="b175c953-99b5-47aa-92c3-d88932a2b6f3">
-			</testcontainer>
-			<testcontainer
-			id="b3dc7a80-fdb6-4347-9e12-76f1b72e2baf">
-			</testcontainer>
-			<testcontainer
-			id="b90bf2fc-eef9-49ea-8944-c132437d0a3d">
-			</testcontainer>
-			<testcontainer
-			id="c00e5fa3-0d4d-4aa4-9474-9e6210666d3c">
-			</testcontainer>
-			<testcontainer
-			id="db431f5c-aeb6-48c8-8e38-ab8c87f59010">
-			</testcontainer>
-			<testcontainer
-			id="e113adec-dcda-47e5-8c25-cde472830d6f">
-			</testcontainer>
-			<testcontainer
-			id="e1398624-42a8-4cc1-9418-1beddd89e1ec">
-			</testcontainer>
-			<testcontainer
-			id="e65c873d-6a98-463a-8418-2f21bd08e9a0">
-			</testcontainer>
-			<testcontainer
-			id="f04cf6ca-b02d-45f2-9ff2-bb1ca80097e2">
-			</testcontainer>
-			<testcontainer
-			id="f1017cff-de43-40a1-98c3-753abcf1615b">
-			</testcontainer>
-			<testcontainer
-			id="f355b77b-ed01-4070-9841-91d2df7e2ea8">
 			</testcontainer>
 		</testconfiguration>
 	</testconfigurations>

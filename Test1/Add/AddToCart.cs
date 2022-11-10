@@ -26,7 +26,7 @@ namespace Test1.Add
     /// <summary>
     ///The AddToCart recording.
     /// </summary>
-    [TestModule("a97731a9-a5b1-4068-aa05-4b535a32046a", ModuleType.Recording, 1)]
+    [TestModule("05717697-2328-4165-9163-5ffc89567f7e", ModuleType.Recording, 1)]
     public partial class AddToCart : ITestModule
     {
         /// <summary>
